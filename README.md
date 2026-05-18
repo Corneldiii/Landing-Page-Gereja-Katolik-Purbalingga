@@ -24,21 +24,7 @@ gereja-katolik-landing/
         └── Footer.jsx        # Footer dengan info kontak
 ```
 
-## Cara Menjalankan
 
-```bash
-# 1. Install dependencies
-npm install
-
-# 2. Jalankan development server
-npm run dev
-
-# 3. Build untuk production
-npm run build
-
-# 4. Preview hasil build
-npm run preview
-```
 
 ## Kustomisasi
 
