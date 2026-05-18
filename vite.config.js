@@ -7,4 +7,14 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  server: {
+    proxy: {
+      // Catch any requests starting with /api/anthropic
+      '/api/anthropic': {
+        target: 'https://api.anthropic.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api\/anthropic/, '')
+      }
+    }
+  } 
 });

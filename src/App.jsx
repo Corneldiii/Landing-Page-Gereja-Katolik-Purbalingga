@@ -6,9 +6,11 @@ import Priests from "./components/Priests";
 import Activities from "./components/Activities";
 import MassSchedule from "./components/MassSchedule";
 import Footer from "./components/Footer";
+import { useEffect, useState } from "react";
 
 export default function App() {
   return (
+    
     <>
       <Navbar />
       <main>
